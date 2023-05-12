@@ -1,19 +1,20 @@
-Algoritmo "algoritimo da tabuada 1 ate  10 "
+Algoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/05/20231
+// Data atual  : 12/05/2023
 Var
 // Seção de Declarações das variáveis 
- N, I, resposta : inteiro
+     numero, x: inteiro
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-    escreval (" escreva um numero de até 10 " )
-      leia (N)
-      para i de 0 ate 10 faca
-      escreval ( N " * " I, " = ", N * I )
-       resposta <- (N * I, ":")
-      
+     escreval ( " escreva um numero " )
+      leia (numero)
+     escreval()
+      para x de 1 ate 10 faca
+      escreval ( numero,  " * ", x , " = ", numero * x )
       fimpara
+
 Fimalgoritmo
